@@ -25,7 +25,7 @@ Different RDBMS-es have their own specific options.
 
 -   `type` - RDBMS type. You must specify what database engine you use.
     Possible values are:
-    "mysql", "postgres", "cockroachdb", "sap", "mariadb", "sqlite", "cordova", "react-native", "nativescript", "sqljs", "oracle", "mssql", "mongodb", "aurora-mysql", "aurora-postgres", "expo", "better-sqlite3", "capacitor".
+    "mysql", "postgres", "cockroachdb", "sap", "spanner", "mariadb", "sqlite", "cordova", "react-native", "nativescript", "sqljs", "oracle", "mssql", "mongodb", "aurora-mysql", "aurora-postgres", "expo", "better-sqlite3", "capacitor".
     This option is **required**.
 
 -   `extra` - Extra options to be passed to the underlying driver.
@@ -96,8 +96,6 @@ Different RDBMS-es have their own specific options.
     Read more about caching [here](caching.md).
 
 -   `cli.entitiesDir` - Directory where entities should be created by default by CLI.
-
--   `cli.migrationsDir` - Directory where migrations should be created by default by CLI.
 
 -   `cli.subscribersDir` - Directory where subscribers should be created by default by CLI.
 

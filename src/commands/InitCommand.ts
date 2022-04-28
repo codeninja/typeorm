@@ -449,7 +449,7 @@ AppDataSource.initialize().then(async () => {
     )
 
     await AppDataSource.manager.save(
-        dataSource.manager.create(User, {
+        AppDataSource.manager.create(User, {
             firstName: "Phantom",
             lastName: "Assassin",
             age: 24
@@ -644,7 +644,7 @@ Steps to run this project:
 
         if (!packageJson.devDependencies) packageJson.devDependencies = {}
         Object.assign(packageJson.devDependencies, {
-            "ts-node": "10.4.0",
+            "ts-node": "10.7.0",
             "@types/node": "^16.11.10",
             typescript: "4.5.2",
         })
